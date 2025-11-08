@@ -1,0 +1,396 @@
+
+ *{
+    margin: 0;
+    font-family: arial;
+    border:border-box;
+
+}
+  
+.navbar{
+    height: 60px;
+   
+    background-color: black;
+    color: white;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: space-evenly;
+   
+   
+    
+}
+
+.nav-logo .logo {
+    width: 150px;                 
+    height: 75px; 
+    background-size: cover;
+                 
+    background-image: url('../static/images/amazon_logo.png');  
+    background-size: contain;     
+    background-repeat: no-repeat; 
+    background-position: center;  
+}
+
+
+.logo {
+    background-image: url("amazon_logo .png");
+    background-size: cover;
+    height: 60px;
+    width: 120%;
+    
+
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+ .nav-logo:hover {
+            border: 1.5px solid white; 
+        }
+
+
+
+/**box2**/
+.nav-address{
+    cursor: pointer;
+    border: none;
+     
+   
+}
+ .nav-address:hover {
+            border: 2px solid white; 
+        }
+
+
+.add-first{
+    color:#cccccc ;
+    font-size: 0.80rem;
+    margin-left: 19px;
+
+}
+
+.add-second{
+    font-size: 1rem;
+    margin-left: 1px
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+/**box3**/
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:pink ;
+    width: 850px;
+    height: 40px;
+    border-radius: 4px;
+    
+}
+
+.nav-search:hover {
+            border: 2px solid orange; 
+        }
+
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius:4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+
+
+
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color:#febd68 ;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+
+/**box 4 **/
+
+span {
+    font-size: 0.7rem;
+}
+
+.nav-sec {
+    font-size: 0.85rem ;
+    font-weight:700 ;
+}
+
+.nav-signin:hover {
+            border: 2px solid white; 
+        }
+
+.nav-return:hover {
+            border: 2px solid white; 
+        }
+
+
+/**box 6 **/
+.nav-cart i {
+    font-size: 28px;
+}
+
+.nav-cart {
+    font-size:0.85rem ;
+    font-weight: 700;
+}
+
+.nav-cart:hover {
+
+            border: 2px solid white; 
+        }
+
+
+  /* panel */
+
+
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content:space-evenly ;
+}
+
+.panel-ops p {
+    display: inline;
+    margin-left: 15px;
+}
+
+.panel-ops {
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.panel-deals {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.product-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #d4e0dd;
+    padding: 20px 10px 20px;
+}
+
+.product-card {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    /* transition: 0.3s; */
+    gap: 8px; /* 🔹 Smaller gap between details and price */
+}
+
+.product-card:hover {
+    
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.product-image img {
+    width: 170px;
+    border-radius: 8px;
+}
+
+.product-details {
+    flex: 1;
+    margin-left: 10px; /* 🔹 Reduced left margin */
+}
+
+.product-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.rate {
+    background-color: #388e3c;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-right: 8px;
+}
+
+.reviews {
+    font-size: 14px;
+    color: #555;
+}
+
+.features {
+    list-style: none;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.features li {
+    margin: 3px 0;
+}
+
+.warranty {
+    font-size: 13px;
+    color: #666;
+}
+
+.product-price {
+    text-align: right;
+    min-width: 130px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    margin-right: 550px;
+    min-width: 120px;
+
+}
+
+.product-price h3 {
+    color: #111;
+    font-size: 22px;
+}
+
+.old-price {
+    color: #777;
+    font-size: 14px;
+}
+
+.offer {
+    color: #388e3c;
+    font-weight: bold;
+}
+
+.discount {
+    color: #7b1fa2;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.exchange {
+    font-size: 13px;
+    color: #333;
+}
+
+
+
+
+/* ---------------- Footer ---------------- */
+footer {
+    font-size: 0.8rem;
+    color: white;
+}
+
+.foot-panel1 {
+    background-color: #37475a;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.foot-panel2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #222f3d;
+    padding: 20px 0;
+    gap: 20px;
+}
+
+.foot-panel2 ul {
+    list-style: none;
+}
+
+.foot-panel2 ul p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.foot-panel2 ul a {
+    display: block;
+    margin: 5px 0;
+    color: #ddd;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.foot-panel2 ul a:hover {
+    color: #febd68;
+}
+
+.foot-panel3 {
+    background-color: #222f3d;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.logo2 {
+    width: 120px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+}
+
+.foot-panel4 {
+    background-color: #0f1111;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.foot-panel4 .pages a {
+    margin: 0 5px;
+    color: #ddd;
+    text-decoration: none;
+}
+
+.foot-panel4 .pages a:hover {
+    color: #febd68;
+}
+
+/* ---------------- Responsive ---------------- */
+@media (max-width: 1200px) {
+    .box { flex: 1 1 30%; max-width: 31%; }
+}
+
+@media (max-width: 900px) {
+    .navbar { flex-direction: column; align-items: flex-start; gap: 10px; }
+    .nav-search { max-width: 100%; }
+    .box { flex: 1 1 45%; max-width: 48%; }
+}
+
+@media (max-width: 600px) {
+    .box { flex: 1 1 100%; max-width: 100%; }
+    .panel { flex-direction: column; align-items: flex-start; }
+}
